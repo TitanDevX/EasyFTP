@@ -306,9 +306,9 @@ public class EasyFTPAI extends JPanel {
 		PassTextField.setBounds (15, 275, 180, 25);
 		connectButton.setBounds (15, 315, 180, 55);
 		jcomp11.setBounds (300, 10, 150, 25);
-		serverLoc.setBounds (300, 45, 320, 55);
+		serverLoc.setBounds (300, 35, 315, 25);
 		jcomp13.setBounds (300, 180, 320, 40);
-		ftpDirField.setBounds (300, 225, 320, 65);
+		ftpDirField.setBounds (300, 225, 315, 30);
 		chooseBtn.setBounds (300, 110, 140, 30);
 		ftpDirChoose.setBounds (300, 300, 135, 40);
 		mainMenuButton.setBounds (30, 455, 615, 45);
