@@ -4,7 +4,8 @@ public enum  Constants {
 
 	SERVER_DIR_CACHE_PATH("serverDir"),
 	FTP_CONNECTION("ftpCon"),
-	SERVERS_PATH("servers");
+	SERVERS_PATH("servers"),
+	FTP_DIR_CACHE_PATH("FtpDir");
 	final Object value;
 
 

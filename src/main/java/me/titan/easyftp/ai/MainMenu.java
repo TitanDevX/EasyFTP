@@ -100,18 +100,18 @@ public class MainMenu extends JFrame implements AppLogger<Color> {
 
 				String servpath = main.getServerManager().serverDirectory.getPath();
 
-				try {
-					main.getFtpConnector().ftpClient.makeDirectory("test");
-				} catch (IOException ioException) {
-					ioException.printStackTrace();
-				}
+//				try {
+//					main.getFtpConnector().ftpClient.makeDirectory("test");
+//				} catch (IOException ioException) {
+//					ioException.printStackTrace();
+//				}
 				Json json = main.getCacheManager().getJson();
 
 				String p = Constants.SERVERS_PATH.str();
 				for (Map.Entry<File, Integer> en : map.entrySet()) {
 
 
-					String path = "test" + en.getKey().getPath().replace(servpath, "");
+					String path = main.getServerManager().targetDir + en.getKey().getPath().replace(servpath, "");
 
 					path = path.replace("\\", "/");
 					System.out.println(path);

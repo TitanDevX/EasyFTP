@@ -4,6 +4,7 @@ import me.titan.easyftp.ai.EasyFTPAI;
 import me.titan.easyftp.ai.MainMenu;
 import me.titan.easyftp.cacheManager.CacheManager;
 
+import javax.swing.*;
 import java.io.File;
 import java.net.URISyntaxException;
 
@@ -13,7 +14,7 @@ public class EasyFTPMain {
 	private ServerManager serverManager;
 
 	private CacheManager cacheManager;
-	public EasyFTPAI ai;
+	public JFrame ai;
 	public MainMenu mainMenu;
 
 	public static File runningDir;
@@ -48,7 +49,7 @@ public class EasyFTPMain {
 		cacheManager = new CacheManager();
 
 
-		ai = new EasyFTPAI("Easy FTP",this);
+		ai = EasyFTPAI.getJFrame(this);
 		ai.setVisible(true);
 
 	}

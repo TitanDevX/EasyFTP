@@ -14,6 +14,8 @@ public class ServerManager {
 	 public File serverDirectory;
 
 	 public String storagePath;
+
+	 public String targetDir;
 	 EasyFTPMain main;
 	public Map<String, Long> files = new HashMap<>(10000000);
 	public ServerManager(File dir,EasyFTPMain main ) {
