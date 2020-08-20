@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="me.titan.easyftp.ai.MainMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="670" height="400"/>
+    </constraints>
+    <properties>
+      <opaque value="true"/>
+      <preferredSize width="550" height="70"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="19052" class="javax.swing.JButton" binding="syncBtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sync Data"/>
+        </properties>
+      </component>
+      <component id="3f4d" class="javax.swing.JButton" binding="restartButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Restart"/>
+        </properties>
+      </component>
+      <component id="59617" class="javax.swing.JButton" binding="FTPConBtn">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Change FTP Connection"/>
+        </properties>
+      </component>
+      <component id="f2108" class="javax.swing.JLabel" binding="logText">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="13b0" class="javax.swing.JButton" binding="ServerBtn">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Edit Server Directory"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
