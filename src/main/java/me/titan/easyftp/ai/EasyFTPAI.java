@@ -26,6 +26,8 @@ public class EasyFTPAI extends JFrame {
 	private JTextArea serverLoc;
 	private JButton chooseBtn;
 	private JButton mainMenuButton;
+	private JTextField ftpDirField;
+	private JButton ftpDirChoose;
 
 
 	EasyFTPMain main;

@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class EasyFTPConnector {
 
-	FTPClient ftpClient;
+	public FTPClient ftpClient;
 
 	public int connect(String host, int port, String user, String pass){
 

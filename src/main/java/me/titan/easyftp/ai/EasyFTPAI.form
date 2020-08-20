@@ -129,7 +129,7 @@
       </component>
       <component id="c3388" class="javax.swing.JTextArea" binding="serverLoc">
         <constraints>
-          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
@@ -156,6 +156,32 @@
         </constraints>
         <properties>
           <text value="Main Menu"/>
+        </properties>
+      </component>
+      <component id="1c5a6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Server Directoy In Web Server"/>
+        </properties>
+      </component>
+      <component id="8893a" class="javax.swing.JTextField" binding="ftpDirField">
+        <constraints>
+          <grid row="6" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="e271f" class="javax.swing.JButton" binding="ftpDirChoose">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose"/>
         </properties>
       </component>
     </children>

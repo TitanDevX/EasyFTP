@@ -11,11 +11,11 @@ public class ServerManager {
 
 	private static ServerManager defaultServerManager;
 
-	 File serverDirectory;
+	 public File serverDirectory;
 
-	 String storagePath;
+	 public String storagePath;
 	 EasyFTPMain main;
-	Map<String, Long> files = new HashMap<>(10000000);
+	public Map<String, Long> files = new HashMap<>(10000000);
 	public ServerManager(File dir,EasyFTPMain main ) {
 		this.serverDirectory = dir;
 
