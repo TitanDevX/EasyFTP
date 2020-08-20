@@ -1,8 +1,6 @@
-package me.titan.easyftp.ai;
+package me.titan.easyftp;
 
 import de.leonhard.storage.Json;
-import me.titan.easyftp.AppLogger;
-import me.titan.easyftp.Constants;
 import me.titan.easyftp.lib.Util;
 
 import java.io.File;

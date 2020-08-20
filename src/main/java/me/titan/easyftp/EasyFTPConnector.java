@@ -1,4 +1,4 @@
-package me.titan.easyftp.ai;
+package me.titan.easyftp;
 
 import org.apache.commons.net.ftp.FTPClient;
 

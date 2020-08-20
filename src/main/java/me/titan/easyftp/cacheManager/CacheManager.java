@@ -1,7 +1,7 @@
 package me.titan.easyftp.cacheManager;
 
 import de.leonhard.storage.Json;
-import me.titan.easyftp.ai.EasyFTPMain;
+import me.titan.easyftp.EasyFTPMain;
 
 import java.io.File;
 

@@ -2,6 +2,9 @@ package me.titan.easyftp.ai;
 
 import de.leonhard.storage.Json;
 import me.titan.easyftp.Constants;
+import me.titan.easyftp.EasyFTPConnector;
+import me.titan.easyftp.EasyFTPMain;
+import me.titan.easyftp.ServerManager;
 
 import javax.swing.*;
 import java.awt.*;

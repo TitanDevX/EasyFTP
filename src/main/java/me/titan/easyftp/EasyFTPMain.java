@@ -1,5 +1,7 @@
-package me.titan.easyftp.ai;
+package me.titan.easyftp;
 
+import me.titan.easyftp.ai.EasyFTPAI;
+import me.titan.easyftp.ai.MainMenu;
 import me.titan.easyftp.cacheManager.CacheManager;
 
 import java.io.File;
