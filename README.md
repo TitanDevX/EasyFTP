@@ -11,7 +11,7 @@ The first AI menu, here you need to specify the ftp connection details and serve
 
 
 
-![gg](https://i.imgur.com/yweuLFl.png)
+![gg](https://i.imgur.com/t4RMJBq.png)
 
 
 Main Menu, if you press the sync button it will start detecting changed (by size), created or deleted files and puch or delete them!
