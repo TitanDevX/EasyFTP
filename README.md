@@ -17,7 +17,7 @@ The first AI menu, here you need to specify the ftp connection details and serve
 
 
 
-![gg](https://i.imgur.com/t4RMJBq.png)
+![gg](https://i.imgur.com/VY6v97e.png)
 
 4. Make sure to connect to your webserver, specify your server location and the target dir, (optionl).
 Note: the target dir is where all files will be uploaded/deleted in your webserver (leave empty to use the dir ('/').
@@ -28,7 +28,7 @@ Note: the target dir is where all files will be uploaded/deleted in your webserv
 Main Menu, if you press the sync button it will start detecting changed (by size), created or deleted files and puch or delete them!
 
 
-![mm](https://i.imgur.com/hvdRj77.png)
+![mm](https://i.imgur.com/jJuBhTx.png)
 
 6. The second 2 buttons will make you back to the main gui, press the sync button, if this is the first time you use the application with this folder it will upload everything it, otherwise it will sync them normally.
 
