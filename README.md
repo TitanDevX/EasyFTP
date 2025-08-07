@@ -1,7 +1,7 @@
 # EasyFTP
 An automated FTP client!
 
-This java application automatically puch only changes for you, you can now maintenance your web server from your local machine!
+This java application automatically push only changes for you, you can now maintenance your web server from your local machine!
 
 ###### _If you can help improve the project AI please make a pull request!_
 
