@@ -25,7 +25,7 @@ Note: the target dir is where all files will be uploaded/deleted in your webserv
 5. After that, click on the main menu button down there, and the main menu will show up:
 
 
-Main Menu, if you press the sync button it will start detecting changed (by size), created or deleted files and puch or delete them!
+Main Menu, if you press the sync button it will start detecting changed (by size), created or deleted files and push or delete them!
 
 
 ![mm](https://i.imgur.com/jJuBhTx.png)
