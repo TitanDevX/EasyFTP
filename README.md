@@ -3,7 +3,9 @@ An automated FTP client!
 
 This java application automatically push only changes for you, you can now maintenance your web server from your local machine!
 
-###### _If you can help improve the project AI please make a pull request!_
+It automatically detects changes in your directory then with a press of a button, push only changed files to the FTP server.
+
+###### _If you can help improve the project UI please make a pull request!_
 
 # Usage
 
@@ -11,7 +13,7 @@ This java application automatically push only changes for you, you can now maint
 2. Double click the jar to open with java. if doesn't open, follow steps from article [here](https://windowsreport.com/jar-file-windows/).
 3. The Main GUI will show up:
 
-The first AI menu, here you need to specify the ftp connection details and server directory scope, cache are saved, you only need to type details one time!
+The first UI menu, here you need to specify the ftp connection details and server directory scope, cache are saved, you only need to type details one time, they will be cached!
 
 
 
